@@ -2,6 +2,7 @@
 
 namespace OlaMundo
 {
+    ///cria uma classe com uma função que escrever: "Hello, World!"
     class Program
     {
 
