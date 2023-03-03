@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace Argumentos
 {
@@ -6,10 +6,11 @@ namespace Argumentos
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
-            for (int i=0 ; i < args.length : i++)
+            for (int i=0 ; i < args.Length ; i++)
             {
-                Console.Writeline(args[i])
+                Console.ReadLine();
+                Console.WriteLine("args given :" + args.Length);
+                Console.WriteLine(args[i]);
             }
         }
     }
